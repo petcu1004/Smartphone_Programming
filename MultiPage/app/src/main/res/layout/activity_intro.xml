@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#A3FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소개글"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06999999" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="405dp"
+        android:text="배구(排球, volleyball)는 각각 6+1명 또는 9명으로 구성된 두 팀이 경기장 중앙에 네트가 설치된 코트에서 네트 너머로 공을 쳐 넘기며 겨루는 세트제 구기 경기종목 중 하나이다.
+
+2점 이상의 점수차로 25점에 도달하는 팀이 세트에서 승리하며, 25점에 도달하더라도 동점이거나 1점 차이인 경우에는 점수차가 2점이 될 때까지 세트를 계속 진행한다. 5세트 중 먼저 3세트를 승리하는 팀이 경기에서 승리한다. 만약 세트 점수 2-2에서 5세트가 진행되는 경우에는 2점 이상의 점수차로 15점에 먼저 도달하는 팀이 경기에서 승리하게 된다. 배구 경기는 한 팀이 6명으로 구성된다. 리베로까지 포함할 경우 1명이 추가되어 7명의 선발 엔트리를 정할 수 있다. 국내 리그의 경우 한 팀에 등록 가능한 최대 선수는 18명이고, 국제 경기의 경우 한 팀은 18명(정규 선수 14명, 리베로 4명)으로 구성된다.
+
+한 팀은 공을 3번 접촉한 뒤에는 반드시 네트 너머로 되돌려 보내야 하고 발리볼이라고도 하며 6인제와 9인제가 있다."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="331dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/game" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
